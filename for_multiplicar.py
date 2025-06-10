@@ -2,7 +2,7 @@
 # Usar un for para imprimir la tabla del 5, del 1al 10.
 
 for i in range(1, 11):
-    resultado = 5 * i
+    resultado = 5 * i  # 5 es el numero que se proporciono para hacer la multiplicacion
     print(f"5 x {i} = {resultado}")
 print("------------------------------------------")
 
@@ -28,3 +28,6 @@ def sumar_multiplos_de_3(a, b):
         if i % 3 == 0:
             suma += i
     return suma
+
+
+print(sumar_multiplos_de_3(3, 10))

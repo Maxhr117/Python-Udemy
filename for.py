@@ -17,11 +17,12 @@ for nombre in nombres:
     print(f"Buenos dias {nombre}")
 # Diccionario
 print("------------------------------------------")
-nombres = {"Jhon": 1, "Linda": 2, "Fredd": 3, "Kelly": 4}
+nombres = {"Jhon": 117, "Linda": 58, "Fred": 104, "Kelly": 87}
 print("El tipo de nombre es", type(nombres))
-for nombre in nombres:
-    print(f"Buenos dias {nombre}")
+for i in nombres:
+    print(f"Buenos dias  {i} -> {nombres[i]}")
 print("------------------------------------------")
 # range
-for i in range(3, 11, 2):
+for i in range(1, 20, 2):
     print(i)
+print("------------------------------------------")
