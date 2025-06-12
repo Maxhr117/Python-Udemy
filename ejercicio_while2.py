@@ -2,7 +2,7 @@ import random
 
 # objetivo
 # Genere un numero secreto aleatorio entre 1 y 100.
-# pedir al usuario que los adivine.
+# pedir al usuario que  adivine el numero..
 # debe decir si el numero ingresado es muy alto, muy bajo o correcto.
 # cuente los intentos.
 # Al final, decir cuantos intentos uso.

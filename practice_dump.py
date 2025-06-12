@@ -19,3 +19,13 @@ for i in range(1, 11):
         print(i, "es par.")
     elif i % 3 == 0:
         print(i, "es impar.")
+
+print("-----------------------------")
+
+contador = 0
+suma = 0
+while contador < 5:
+    contador += 1
+    suma += contador
+
+    print(f"contando: {suma}")
